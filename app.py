@@ -1,10 +1,9 @@
-gunicorn app: app
-# app.py
 from flask import Flask
-app = Flask(__name__)  # Make sure this is defined
+app = Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
     return "Hello, World!"
 
-# ... rest of your code
+if __name__ == "__main__":
+    app.run()
