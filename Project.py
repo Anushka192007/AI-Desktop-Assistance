@@ -3,7 +3,7 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = "your_openai_key"
+openai.api_key = "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"
 
 @app.route('/webhook', methods=['POST'])
 def whatsapp_bot():
