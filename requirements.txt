@@ -1,4 +1,8 @@
-flask
-twilio
+Flask
 openai
+requests
+sentence-transformers
+pikepdf
+fitz
+twilio
 gunicorn
